@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>聚创-聚我-好友列表</title>
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/lqcss.css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+<script src="js/fastclick.js"></script>
+<script src="js/base.js"></script>
+<script>
+	$(function(){
+		
+		$('.delete').hide();
+		$(this).find('.tel').css('z-index',999);
+		$('.list_address ul li').click(function(){	
+			$(this).find('.tel').hide();
+			$(this).find('.delete').show();			
+			$('.list_address ul li a.tel').click(function(){	
+			$(this).find('.tel').show();
+			$(this).find('.delete').hide();
+			})
+		})
+	});
+</script>
+</head>
+<body>
+	<div class="wrap">
+	    <nav class="nav">
+	            <a class="log" href="javascript:history.go(-1);">
+	               <img src="images/logopic.png"/>
+	            </a>
+	            <span class="navcenter">	                
+	                <img src="images/jw_logo.png"/>
+	            </span>
+	            <strong class="fnright" href="xiaoxi.html">
+	            	<a href="">我的发布</a>	              
+	            </strong>
+        </nav>
+       
+       <!--主体部分-->
+        <div class="lqmain mycenter">
+        	<!--个人图片-->
+        	<div class="mypic">
+        		<a href="">
+        		<img src="images/pic3.png" />
+        		<p>木之一</p>
+        		</a>
+        	</div>
+        	
+        	<div class="nav2">
+        		<ul class="fnclear">
+        			<li >
+        				<a href="">
+        					<img src="images/icom2.png"/>
+        					<img src="images/icom2_2.png" />
+        					<span>我的钱包</span>
+        				</a>
+        			</li>
+        			<li >
+        				<a href="juwo_tiwen.html">
+        					<img src="images/icom3.png"/>
+        					<img src="images/icom3_3.png" />
+        					<span>我的问题</span>
+        				</a>
+        			</li>
+        			<li class="select">
+        				<a href="laosiji.html">
+        					<img src="images/icom4.png"/>
+        					<img src="images/icom4_4.png" />
+        					<span>好友列表</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="juwo_mynote.html">
+        					<img src="images/icom5.png"/>
+        					<img src="images/icom5_5.png" />
+        					<span>我的消息</span>
+        				</a>
+        			</li>
+        		</ul>
+        	</div>
+        	
+        	
+        	<!--内容部分-->
+        	<div class="pinlist zjhd">
+        		<p class="newwend">
+        		<span>全部</span><img src="images/downico.png" />
+	        	</p>
+	        	
+	        	
+        <div data-role="page" id="ch_ad"> 
+       <div class="list_address">
+    	<ul>
+            <li>
+            	<p class="select"><img src="images/shzy_cpimg.png"/></p>
+                <p class="name red">隔壁老王</p>
+                <a href="juwo_friend_sh.html" class="tel red">查看群成员</a>               
+                <a class="delete">删除</a>
+            </li>
+            <li>
+            	<p class="select"><img src="images/shzy_cpimg.png"/></p>
+                <p class="name red">隔壁老王</p>
+                <a class="tel red">查看群成员</a>               
+                <a class="delete">删除</a>
+            </li>
+            <li>
+            	<p class="select"><img src="images/shzy_cpimg.png"/></p>
+                <p class="name red">隔壁老王</p>
+                <a class="tel red">查看群成员</a>               
+                <a class="delete">删除</a>
+            </li>
+            <li>
+            	<p class="select"><img src="images/shzy_cpimg.png"/></p>
+                <p class="name red">隔壁老王</p>
+                <a class="tel red">查看群成员</a>               
+                <a class="delete">删除</a>
+            </li>
+            <li>
+            	<p class="select"><img src="images/shzy_cpimg.png"/></p>
+                <p class="name red">隔壁老王</p>
+                <a class="tel red">查看群成员</a>               
+                <a class="delete">删除</a>
+            </li>
+    	</ul>
+    </div>
+    </div>
+        	</div>    
+        	
+        	
+        	
+        	
+        </div>
+        
+        <footer class="footer">
+            <ul>
+                <li  >
+                    <a href="index.html">
+                        <img src="images/jc@2x_04.png">
+                        <img src="images/jc@2x_03.png">
+                        <p>
+                          聚创
+                        </p>
+                    </a>
+                </li>
+                <li >
+                    <a href="ChamberCommerce.html">
+                        <img src="images/js@2x_04.png">
+                        <img src="images/js@2x_03.png">
+                        <p>
+                            聚商
+                        </p>
+                    </a>
+                </li>
+                
+                
+                <li>
+                    <a href="">
+                        <img src="images/jt@2x_04.png">
+                        <img src="images/jt@2x_03.png">
+                        
+                        <p>
+                          聚投
+                        </p>
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="">
+                        <img src="images/jx@2x_04.png">
+                        <img src="images/jx@2x_03.png">
+                        <p>
+                            聚享
+                        </p>
+                    </a>
+                </li>
+                <li class="select">
+                    <a href="">
+                        <img src="images/jw@2x_03.png">
+                        <img src="images/jw@2x_06.png">
+                        <p>
+                           聚我
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

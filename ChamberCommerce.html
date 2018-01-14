@@ -1,0 +1,166 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>聚创-首页</title>
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/style2.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/base.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <nav class="nav">
+            <a class="log">
+               <img src="images/logopic.png"/>
+            </a>
+            <span class="navcenter">                    
+                <img src="images/js_logo.png"/>
+            </span>
+            <strong class="fnright" href="xiaoxi.html">
+              <a href=""><img src="images/searchpic.png" /></a>
+              <a href=""><img src="images/note.png" /></a>
+            </strong>
+        </nav>
+        <!--主体部分-->
+        <div class="lqmain jsmain">
+            <div class="chambercommerce_top">
+                <ul class="clearfloat">
+                    <li>
+                        <a href="#">
+                            <p class="p1"></p>
+                            商讯博览
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ChamberCommerceResources.html">
+                            <p class="p2"></p>
+                            商会资源
+                        </a>
+                    </li>
+                    <li>
+                        <a href="shangyehez.html">
+                            <p class="p3"></p>
+                            商业合作
+                        </a>
+                    </li>
+                    <li>
+                        <a href="kaocha.html">
+                            <p class="p4"></p>
+                            商务考察
+                        </a>
+                    </li>
+                </ul>
+            </div>       
+            <div class="chambercommerce_list">
+                <ul>
+                    <li>
+                      <a href="wenzidetils.html">
+                        <div class="chambercommerce_listtopimg">
+                            <img src="images/jsdt_img.jpg">
+                        </div>
+                        <div class="chambercommerce_listtxt">
+                            <p>北京省级兄弟商会秘书长联席会全民运动风潮</p>
+                            <span>浙江专家商会|36分钟前<i><img src="images/jsdt_hoticon.png"></i></span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="chambercommerce_listtopimg">
+                            <img src="images/jsdt_img.jpg">
+                        </div>
+                        <div class="chambercommerce_listtxt">
+                            <p>北京省级兄弟商会秘书长联席会全民运动风潮</p>
+                            <span>浙江专家商会|36分钟前<i><img src="images/jsdt_hoticon.png"></i></span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="chambercommerce_listtopimg">
+                            <img src="images/jsdt_img.jpg">
+                        </div>
+                        <div class="chambercommerce_listtxt">
+                            <p>北京省级兄弟商会秘书长联席会全民运动风潮</p>
+                            <span>浙江专家商会|36分钟前<i><img src="images/jsdt_hoticon.png"></i></span>
+                        </div>
+                      </a>
+                    </li>
+                </ul>
+                <div style="height:.98rem;" class="bottom_height">
+                </div>
+            </div>  
+        </div>
+        <footer class="footer">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="images/jc@2x_04.png">
+                        <img src="images/jc@2x_03.png">
+                        <p>
+                          聚创
+                        </p>
+                    </a>
+                </li>
+                <li class="select">
+                    <a href="ChamberCommerce.html">
+                        <img src="images/js@2x_04.png">
+                        <img src="images/js@2x_03.png">
+                        <p>
+                            聚商
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="jutou.html">
+                        <img src="images/jt@2x_04.png">
+                        <img src="images/jt@2x_03.png">
+                        
+                        <p>
+                          聚投
+                        </p>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="jux.html">
+                        <img src="images/jx@2x_04.png">
+                        <img src="images/jx@2x_03.png">
+                        <p>
+                            聚享
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="juwo.html">
+                        <img src="images/jw@2x_03.png">
+                        <img src="images/jw@2x_06.png">
+                        <p>
+                           聚我
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            var top = 0;
+            $(".wrap").on('scroll',function () {
+                var _top = $(this).scrollTop();
+                if (_top>top) {
+                    $(".footer").css({bottom:'-.98rem'});
+                }else{
+                    $(".footer").css({bottom:'0'});
+                }
+                top = _top;
+            });
+        });
+    </script>
+</body>
+</html>

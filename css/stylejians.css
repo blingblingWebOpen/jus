@@ -1,0 +1,86 @@
+html,body,div,ul,li,ol,a,input,textarea,p,dl,dt,dd{margin:0;padding:0;}
+ul li{list-style: none;}
+a{text-decoration: none;cursor: pointer;}
+html{height: 100%;}
+body{height: 100%;background: #f5f5f5;position: relative;font-family: '微软雅黑';/*max-width: 640px;*/margin:auto;}
+a,input,img,textarea,span,div{outline: 0;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+
+#letter{
+    width: 1rem;
+    height: 1rem;
+    border-radius: .05rem;
+    font-size: .75rem;
+    color: #555;
+    text-align: center;
+    line-height: 1rem;
+    background: rgba(145,145,145,0.6);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin:-.5rem 0px 0px -.5rem;
+    z-index: 99;
+    display: none;
+}
+#letter img{
+    width: .5rem;
+    height: .5rem;
+    float: left;
+    margin:.25rem 0 0 .25rem;
+}
+.sort_box{
+    width: 100%;
+    /*padding-top: 45px;*/
+    overflow: hidden;
+}
+.sort_list{
+    padding:.1rem .6rem .1rem .2rem;
+    position: relative;
+    height: .4rem;
+    background: #FFFFFF;
+    line-height: .4rem;
+    border-bottom:.01rem solid #ddd;
+}
+
+.sort_list .num_logo{
+    width: .5rem;
+    height: .5rem;
+    border-radius: .1rem;
+    overflow: hidden;
+    position: absolute;
+    top: .05rem;
+    left: .2rem;
+}
+.sort_list .num_logo img{
+    width: .5rem;
+    height: .5rem;
+}
+.sort_list .num_name{
+    color: #000;
+    font-size: .26rem;
+    padding-left: .2rem;
+}
+
+.sort_letter{
+    height: .2rem;
+    line-height: .2rem;
+    padding-left: 20px;
+    color:#007aff;
+    font-size: .16rem;
+    background: #e9e9e9;    
+    border-bottom:.01rem solid #ddd;
+}
+.initials{
+    position: fixed;
+    top: 1rem;
+    right: 0rem;
+    height: 100%;
+    width: .30rem;
+    padding-right: .1rem;
+    text-align: center;
+    font-size: .12rem;
+    z-index: 99;
+    background: rgba(145,145,145,0);
+}
+.initials li img{
+    width: .14rem;
+}

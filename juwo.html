@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>聚创-聚我</title>
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/base2.css">
+<link rel="stylesheet" type="text/css" href="css/lqcss.css"/>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/base.js"></script>
+<script type="text/javascript" src="js/custominput.js"></script>
+<script type="text/javascript">
+$(function(){	
+	$('input').customInput();	
+	$('.toggle').each(function(){
+		$('div:first',this).addClass('first');
+		$('div:last',this).addClass('last');	
+	}); 
+});
+</script>
+</head>
+<body>
+	<div class="wrap">
+	    <nav class="nav">
+	            <a class="log" href="javascript:history.go(-1);">
+	               <img src="images/logopic.png"/>
+	            </a>
+	            <span class="navcenter">	                
+	                <img src="images/jw_logo.png"/>
+	            </span>
+	            <strong class="fnright" href="xiaoxi.html">
+	            	<a href="juwo_fatie.html">我的发布</a>	              
+	            </strong>
+        </nav>
+       
+       <!--主体部分-->
+        <div class="lqmain mycenter">
+        	<!--个人图片-->
+        	<div class="mypic">
+        		<a href="mycenterdetils.html">
+        		<img src="images/pic3.png" />
+        		<p>木之一</p>
+        		</a>
+        	</div>
+        	
+        	<div class="nav2">
+        		<ul class="fnclear">
+        			<li class="select">
+        				<a href="juwo.html">
+        					<img src="images/icom2.png"/>
+        					<img src="images/icom2_2.png" />
+        					<span>我的钱包</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="juwo_tiwen.html">
+        					<img src="images/icom3.png"/>
+        					<img src="images/icom3_3.png" />
+        					<span>我的问题</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="juwo_friend.html">
+        					<img src="images/icom4.png"/>
+        					<img src="images/icom4_4.png" />
+        					<span>好友列表</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="juwo_mynote.html">
+        					<img src="images/icom5.png"/>
+        					<img src="images/icom5_5.png" />
+        					<span>我的消息</span>
+        				</a>
+        			</li>
+        		</ul>
+        	</div>
+        	
+        	<div class="yue">
+        		<strong><i></i>120.00</strong>
+        	</div>
+        	<div class="caoz fnclear">
+        		<a class="select" href="juwo.html"><i class="chongzhi"></i>充值</a>
+        		<a href="juwo_tixian.html"><i class="tix"></i>提现</a>
+        	</div>
+        	
+        	<div class="jine">
+        		<input type="text" name="" id="" value="" placeholder="请输入充值金额"/>
+        		<label>金额</label>
+        	</div>
+        	<div class="tcenterdiv1 zhifudiv">    		
+	    	<ul>
+	    		<li class="fnclear"><label class="zhifwei" for="zhifu"><img src="images/zfwei.png" /><span>微信支付</span></label><input type="radio" name="zhifu" id="zhifu" value=""/></li>
+	    		<li class="fnclear"><label class="zhifub" for="zhifu2"><img src="images/zfb.png" />支付宝支付</label><input type="radio" name="zhifu" id="zhifu2" value=""/></li>
+	    		<li class="fnclear"><label class="zhifuyinh" for="zhifu3"><img src="images/yinhang.png" />银行卡支付</label><input type="radio" name="zhifu" id="zhifu3" value=""/></li>	
+	    	</ul>
+	    	<a class="close1 zhifubtn">立即充值</a>
+    		</div> 
+        </div>
+        
+        <footer class="footer">
+            <ul>
+                <li  >
+                    <a href="index.html">
+                        <img src="images/jc@2x_04.png">
+                        <img src="images/jc@2x_03.png">
+                        <p>
+                          聚创
+                        </p>
+                    </a>
+                </li>
+                <li >
+                    <a href="ChamberCommerce.html">
+                        <img src="images/js@2x_04.png">
+                        <img src="images/js@2x_03.png">
+                        <p>
+                            聚商
+                        </p>
+                    </a>
+                </li>
+                
+                
+                <li>
+                    <a href="jutou.html">
+                        <img src="images/jt@2x_04.png">
+                        <img src="images/jt@2x_03.png">
+                        
+                        <p>
+                          聚投
+                        </p>
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="jux.html">
+                        <img src="images/jx@2x_04.png">
+                        <img src="images/jx@2x_03.png">
+                        <p>
+                            聚享
+                        </p>
+                    </a>
+                </li>
+                <li class="select">
+                    <a href="juwo.html">
+                        <img src="images/jw@2x_03.png">
+                        <img src="images/jw@2x_06.png">
+                        <p>
+                           聚我
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

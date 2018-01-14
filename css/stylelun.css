@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	font-family:"微软雅黑";
+	font-size:12px;
+	background-color:#f4f4f4;
+	overflow-x:hidden;}
+.clear{
+	clear:both;}
+/*img{
+	font-size:0;
+	display:block;
+	border:none;}*/
+.construct{
+	position:relative;
+	width:100%;
+	height:auto;}
+.container{
+	position:relative;
+	width:1076px;
+	height:auto;
+	margin:0 auto;}
+#lunbo{
+	position:absolute;
+	z-index:-10;
+	left:0;
+	top:0px;
+	}
+#lunbo_img1{
+	position:absolute;
+	top:0;
+	left:0;
+	height:708px;
+	width:100%;
+	background-image:url(../images/banner.png);
+	background-position:center center;
+	background-size:100% 100%;
+	}
+#lunbo_img2{
+	position:absolute;
+	top:0;
+	left:0;
+	height:659px;
+	width:100%;
+	position:absolute;
+	background-image:url(../images/banner.png);
+	background-position:center center;
+	background-size:100% 100%;
+}
+#lunbo_img3{
+	position:absolute;
+	top:0;
+	left:0;
+	height:659px;
+	width:100%;
+	position:absolute;
+	background-image:url(img/1441779960147.jpg);
+	background-position:center center;
+	
+	}
+.lunbo_content{
+	display:none;
+    margin:100px 50px 0 700px;
+	background-color:rgba(255,199,0,0.7);
+	width:350px;
+	height:200px;}
+.lunbo_content_title1{
+	padding:20px 0 0 20px;
+	font-family:"微软雅黑";
+	font-size:35px;
+	color:white;}
+.lunbo_content_title2{
+	padding:5px 0 0 20px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	font-size:35px;
+	color:white;}
+.lunbo_content_arrow{
+    margin:-20px 30px 0 0;
+	float:right;}
+.lunbo_content_content{
+	font-size:15px;
+	color:white;
+	padding:55px 0 0 20px;}
+#lunbo_num{
+	position:absolute;
+	z-index:1000;
+	left:50%;
+	top:600px;
+	margin-left: -16px;
+	}
+#lunbo_tip{
+	display:none;
+	position:absolute;
+	left:890px;
+	top:604px;
+	height:20px;
+	width:50px;
+	background-color:#ffa719;
+	color:white;
+	text-align:center;
+	line-height:20px;
+	border-radius:3px; opacity: 0; fill-opacity: 0;}
+#lunbo_tip:after{
+	display:none;
+	position:absolute;
+	left:50px;
+	top:5px;
+	content:"";
+	font-size:0px;
+	height:0px;
+	width:0px;
+	border-left:#ffa719 5px solid;
+	border-top:transparent 5px solid;
+	border-bottom:transparent 5px solid;
+	}
+.lunbo_num{
+	cursor:pointer;
+	font-size:0px;
+	margin:0 3px;
+	padding:5px;
+	border-radius:6px;
+	border:.01rem solid #FFFFFF;
+	background:#FFFFFF;}
+.lunbo_num_l{
+	cursor:pointer;
+	font-size:0px;
+	padding:5px 5px;
+	margin:0 3px;
+	border-radius:6px;
+	border:.01rem solid #FFFFFF;
+	/*background-color: ;*/
+	background:none;}
+
